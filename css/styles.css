@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+    .tarjetas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tarjetas img {
+        max-width: 300px; 
+        margin: 0 auto; 
+    }
+
+
 /* ==== INDEX VERSION MOBILE ==== */
 
 
