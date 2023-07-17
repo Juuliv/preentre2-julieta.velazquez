@@ -5,17 +5,17 @@
     box-sizing: border-box;
 }
 
-    .tarjetas {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-    .tarjetas img {
-        max-width: 300px; 
-        margin: 0 auto; 
-    }
+.tarjetas img {
+    max-width: 300px;
+    margin: 0 auto;
+}
 
 
 
@@ -309,7 +309,7 @@
         color: rgb(41, 39, 39);
         text-align: center;
         margin: 1.5rem;
-        width:30vh;
+        width: 30vh;
         height: 8vh;
 
     }
@@ -549,28 +549,28 @@
         border: 0.2rem;
     }
 
-  /* ==== MAIN ==== */
-  
-  .contacto h1{
+    /* ==== MAIN ==== */
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .contacto h1 {
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         text-decoration: underline;
         font-size: 1.5rem;
         text-align: center;
 
-  }
+    }
 
-  .contacto h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .contacto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         text-decoration: underline;
         font-size: 1.4rem;
         text-align: start;
         padding: 2rem;
-  }
+    }
 
-  .contacto div iframe{
+    .contacto div iframe {
 
         margin-right: 10%;
         margin-left: 10%;
@@ -580,48 +580,48 @@
         justify-content: center;
         width: 80%;
         height: 50%;
-  }
+    }
 
-  .info ul li h4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-size: 0.8rem;
-    text-align: start;
-    padding: 0.1rem;
+    .info ul li h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: 0.8rem;
+        text-align: start;
+        padding: 0.1rem;
 
-  }
+    }
 
-  .formcontacto h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .formcontacto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         text-decoration: underline;
         font-size: 1.4rem;
         text-align: center;
         padding: 1rem;
-  }
+    }
 
-  .formcontacto .completar .casilla label{
-    margin: 0.2rem;
-    padding: 0.5rem;
-    justify-content: start;
-  }
+    .formcontacto .completar .casilla label {
+        margin: 0.2rem;
+        padding: 0.5rem;
+        justify-content: start;
+    }
 
-  .formcontacto .completar .casilla input {
-    margin: 0.5rem;
-    padding: 0.2rem;
-    justify-content: start;
-  }
+    .formcontacto .completar .casilla input {
+        margin: 0.5rem;
+        padding: 0.2rem;
+        justify-content: start;
+    }
 
-  .formcontacto .completar .casilla2 input {
-    margin: 0.2rem;
-    padding: 0.2rem;
-    justify-content: center;
-    margin-left: 10%;
-  }
+    .formcontacto .completar .casilla2 input {
+        margin: 0.2rem;
+        padding: 0.2rem;
+        justify-content: center;
+        margin-left: 10%;
+    }
 
-     /* ==== FOOTER ==== */
+    /* ==== FOOTER ==== */
 
-     .contenedor {
+    .contenedor {
         background-color: rgba(241, 96, 96, 0.671);
         border: black solid 2px;
         display: grid;
@@ -666,11 +666,166 @@
 
 }
 
+
+/* ==== CONTACTANOS VERSION TABLET ==== */
+
+
+@media (min-width:768px) {
+
+
+    header .formulario form {
+        margin: 2rem;
+        border: 1rem;
+        width: 95%;
+
+    }
+
+    header .logo img {
+        margin: 0;
+        margin-right: 20%;
+        margin-left: 20%;
+        border: 1rem;
+        padding: 1rem;
+        display: flex;
+        width: 60%;
+        height: 10%;
+
+
+    }
+
+    header .nav ul li {
+        font-size: 1rem;
+        text-decoration: none;
+        list-style: none;
+        color: blueviolet;
+        display: inline-block;
+        justify-content: center;
+        padding: 0.2rem;
+        margin: 0.2rem;
+        border: 0.2rem;
+    }
+
+    /* ==== MAIN ==== */
+
+    .contacto h1 {
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+
+    .contacto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.4rem;
+        text-align: start;
+        padding: 2rem;
+    }
+
+    .contacto div iframe {
+
+        margin-right: 10%;
+        margin-left: 10%;
+        border: 0.2rem;
+        padding: 0.2rem;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 50%;
+    }
+
+    .info ul li h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: 0.8rem;
+        text-align: start;
+        padding: 0.1rem;
+
+    }
+
+    .formcontacto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .formcontacto .completar .casilla label {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        justify-content: start;
+    }
+
+    .formcontacto .completar .casilla input {
+        margin: 0.5rem;
+        padding: 0.2rem;
+        justify-content: start;
+    }
+
+    .formcontacto .completar .casilla2 input {
+        margin: 0.5rem;
+        padding: 0.2rem;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    /* ==== FOOTER ==== */
+
+    .contenedor {
+        background-color: rgba(241, 96, 96, 0.671);
+        border: black solid 2px;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: repeat(2, 50%);
+        padding: 1vh;
+        margin: 2vh;
+        height: 20vh;
+        width: 85vh;
+    }
+
+
+    .fondo {
+        background-color: rgba(241, 96, 96, 0.671);
+        color: rgb(41, 39, 39);
+        text-align: center;
+        margin: 0.2rem;
+        width: 15vh;
+        height: 3vh;
+
+    }
+
+    footer div h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    footer ul li h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: 0.6rem;
+        text-align: center;
+        justify-content: space-between;
+
+
+    }
+
+}
+
+
 /* ==== CONTACTANOS VERSION DESKTOP ==== */
 
 /* ==== HEADER ==== */
 
-@media (min-width:1200px){
+@media (min-width:1200px) {
 
     header .formulario form {
         margin: 2rem;
@@ -704,28 +859,28 @@
         border: 0.5rem;
     }
 
-  /* ==== MAIN ==== */
-  
-  .contacto h1{
+    /* ==== MAIN ==== */
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .contacto h1 {
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         text-decoration: underline;
         font-size: 1.7rem;
         text-align: center;
 
-  }
+    }
 
-  .contacto h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .contacto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         text-decoration: underline;
         font-size: 1.4rem;
         text-align: start;
         padding: 2rem;
-  }
+    }
 
-  .contacto div iframe{
+    .contacto div iframe {
 
         margin-right: 10%;
         margin-left: 10%;
@@ -735,48 +890,48 @@
         justify-content: center;
         width: 80%;
         height: 50%;
-  }
+    }
 
-  .info ul li h4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-size: 0.8rem;
-    text-align: start;
-    padding: 0.1rem;
+    .info ul li h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: 0.8rem;
+        text-align: start;
+        padding: 0.1rem;
 
-  }
+    }
 
-  .formcontacto h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .formcontacto h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         text-decoration: underline;
         font-size: 1.4rem;
         text-align: center;
         padding: 1.5rem;
-  }
+    }
 
-  .formcontacto .completar .casilla label{
-    margin: 0.5rem;
-    padding: 0.5rem;
-    justify-content: center;
-  }
+    .formcontacto .completar .casilla label {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        justify-content: center;
+    }
 
-  .formcontacto .completar .casilla input {
-    margin: 0.5rem;
-    padding: 0.2rem;
-    justify-content: start;
-  }
+    .formcontacto .completar .casilla input {
+        margin: 0.5rem;
+        padding: 0.2rem;
+        justify-content: start;
+    }
 
-  .formcontacto .completar .casilla2 input {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    justify-content: center;
-    margin-left: 5%;
-  }
+    .formcontacto .completar .casilla2 input {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        justify-content: center;
+        margin-left: 5%;
+    }
 
-     /* ==== FOOTER ==== */
+    /* ==== FOOTER ==== */
 
-     .contenedor {
+    .contenedor {
         background-color: rgba(241, 96, 96, 0.671);
         border: black solid 2px;
         padding: 1.3vh;
@@ -810,7 +965,7 @@
         font-size: 0.8rem;
         text-align: center;
         justify-content: space-between;
-    
+
 
 
     }
@@ -818,5 +973,3 @@
 
 
 }
-
-
