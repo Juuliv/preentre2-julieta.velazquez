@@ -558,9 +558,9 @@ header .barradenav ul li {
     grid-template-columns: repeat(3, 30%);
     grid-template-rows: repeat(2, 50%);
     padding: 1vh;
-    margin: 1vh;
+    margin: 2vh;
     height: 20vh;
-    width: 55vh;
+    width: 53vh;
 }
 
 
@@ -568,9 +568,9 @@ header .barradenav ul li {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
     text-align: center;
-    margin: 0.5rem;
-    width: 13vh;
-    height: 3vh;
+    margin: 0.2rem;
+    width: 10vh;
+    height: 2vh;
 
 }
 
