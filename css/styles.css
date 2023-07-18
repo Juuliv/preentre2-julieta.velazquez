@@ -552,13 +552,56 @@
     .catalogo h1 {
 
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-decoration: underline;
         text-align: center;
         margin: 4rem;
     }
 
+.catalogo div img{
 
+    border: solid 0.2rem rgba(241, 96, 96, 0.671);
+        border-radius: 20%;
+        image-orientation: center;
+        margin: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 2%;
+        height: 60%;
+        width: 60%;
+
+    display: flex;
+   justify-content: center;
+}
+
+   .catalogo div h2{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+        color: rgb(41, 39, 39);
+        text-align: center;
+
+   
+}
+
+.catalogo .card-text{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
+        color: rgb(41, 39, 39);
+        text-align: center;
+}
+
+.catalogo div a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0.2rem;
+        margin-left: 33%;
+}
+
+
+}
     /* ==== FOOTER ==== */
 
     .contenedor {
@@ -569,7 +612,7 @@
         grid-template-rows: repeat(2, 50%);
         padding: 1vh;
         margin: 2vh;
-        height: 20vh;
+        height: 25vh;
         width: 53vh;
     }
 
