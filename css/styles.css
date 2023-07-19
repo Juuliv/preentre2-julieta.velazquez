@@ -1378,8 +1378,6 @@ footer ul li h4 {
 }
 
 
-
-
 /* ==== CONTACTANOS VERSION MOBILE ==== */
 
 
@@ -1844,5 +1842,139 @@ footer ul li h4 {
     }
 
 
+
+}
+
+/* ==== NOSOTROS VERSION MOBILE ==== */
+
+@media (min-width:480px) {
+
+
+    /* ==== HEADER ==== */
+
+
+    header .formulario form {
+        margin: 2rem;
+        border: 1rem;
+        width: 95%;
+
+    }
+
+    header .logo img {
+        margin: 0;
+        margin-right: 20%;
+        margin-left: 20%;
+        border: 1rem;
+        padding: 1rem;
+        display: flex;
+        width: 60%;
+        height: 10%;
+
+
+    }
+
+    header .nav ul li {
+        font-size: 1rem;
+        text-decoration: none;
+        list-style: none;
+        color: blueviolet;
+        display: inline-block;
+        justify-content: center;
+        padding: 0.2rem;
+        margin: 0.2rem;
+        border: 0.2rem;
+    }
+
+    /* ==== MAIN ==== */
+
+    .about-us h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        text-align: center;
+    
+    }
+    .about-us p{
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: none;
+        font-size: 0.8rem;
+        text-align: start;
+        padding: 1rem;
+
+    }
+
+    .about-us img {
+
+        margin-left: 2%;
+        padding: 2%;
+        height: 50%;
+        width: 80%
+    }
+
+.comentarios h2{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.2rem;
+        text-align: center;
+
+}
+.comentarios p{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: none;
+        font-size: 0.8rem;
+        text-align: start;
+        padding: 0.8rem;
+        background-color: rgba(218, 70, 70, 0.719);
+}
+
+    /* ==== FOOTER ==== */
+
+    .contenedor {
+        background-color: rgba(241, 96, 96, 0.671);
+        border: black solid 2px;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: repeat(2, 50%);
+        padding: 1vh;
+        margin: 2vh;
+        height: 25vh;
+        width: 53vh;
+    }
+
+
+    .fondo {
+        background-color: rgba(241, 96, 96, 0.671);
+        color: rgb(41, 39, 39);
+        text-align: center;
+        margin: 0.2rem;
+        width: 10vh;
+        height: 2vh;
+
+    }
+
+    footer div h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    footer ul li h4 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: 0.6rem;
+        text-align: center;
+        justify-content: space-between;
+
+
+    }
 
 }
