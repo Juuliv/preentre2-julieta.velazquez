@@ -1,0 +1,499 @@
+/* ==== INDEX VERSION MOBILE ==== */
+
+
+/* ==== HEADER ==== */
+
+
+@media (min-width:480px) {
+
+
+
+    header .formulario form {
+        margin: 2rem;
+        border: 1rem;
+        width: 95%;
+
+    }
+
+    header .barradenav .container img {
+        margin: 10px;
+        margin-right: 10%;
+        margin-left: 10%;
+        border: 1rem;
+        padding: 1rem;
+        display: flex;
+        width: 60%;
+        height: 30%;
+
+
+    }
+
+    header .barradenav ul li {
+        font-size: 1rem;
+        text-decoration: none;
+        list-style: none;
+        color: blueviolet;
+        display: inline-block;
+        justify-content: center;
+        padding: 0.2rem;
+        margin: 0.2rem;
+        border: 1rem;
+    }
+
+    /* ==== MAIN ==== */
+
+    .destacados h1 {
+
+        font-family: $fuente;
+        font-size: 2rem;
+        text-decoration: underline;
+        text-align: center;
+
+    }
+
+    .articulos article img {
+
+        border: solid 0.2rem $colorbase;
+        border-radius: 20%;
+        image-orientation: center;
+        margin: 10%;
+        padding: 2%;
+        height: 40%;
+        width: 40%;
+
+        & article div h3 {
+
+            font-family: $fuente;
+            font-size: 1.5rem;
+            color: rgb(41, 39, 39);
+            text-align: center;
+        }
+
+
+        & article div h4 {
+            font-family: $fuente;
+            font-size: 2rem;
+            color: rgb(41, 39, 39);
+            text-align: center;
+        }
+    }
+
+
+
+    .acceso div h3 {
+        font-family: $fuente;
+        font-size: 2rem;
+        text-decoration: underline;
+        text-align: center;
+        margin: 10%;
+
+        & div img {
+            border: solid 0.2rem $colorbase;
+            border-radius: 20%;
+            image-orientation: center;
+            margin: 15%;
+            padding: 2%;
+            height: 30%;
+            width: 65%;
+        }
+
+
+        & div nav ul li {
+            font-family: $fuente;
+            font-size: 1rem;
+            text-align: center;
+            border: solid 0.2rem rgba(68, 58, 58, 0.671);
+            list-style: none;
+            width: 30%;
+            margin: 8rem;
+        }
+    }
+
+
+
+
+
+    /* ==== FOOTER ==== */
+
+    .contenedor {
+        background-color: $colorbase;
+        border: black solid 2px;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: repeat(2, 50%);
+        padding: 1vh;
+        margin: 1vh;
+        height: 20vh;
+        width: 30vh;
+    }
+
+
+    .fondo {
+        background-color: $colorbase;
+        color: rgb(41, 39, 39);
+        text-align: center;
+        margin: 0.5rem;
+        width: 13vh;
+        height: 3vh;
+
+    }
+
+    footer div h3 {
+        font-family: $fuente;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    footer ul li h4 {
+        font-family: $fuente;
+        font-style: italic;
+        font-size: 0.6rem;
+        text-align: center;
+        justify-content: space-between;
+
+
+    }
+
+}
+
+/* ==== INDEX VERSION TABLET ==== */
+
+@media (min-width:768px) {
+
+    /* ==== HEADER ==== */
+
+    header .formulario form {
+        margin: 2rem;
+        border: 1rem;
+        width: 95%;
+        justify-content: end;
+
+    }
+
+    header .logo img {
+        margin: 0;
+        margin-right: 25%;
+        margin-left: 25%;
+        border: 1rem;
+        padding: 1rem;
+        display: flex;
+        width: 50%;
+        height: 30%;
+
+
+    }
+
+    header .nav ul li {
+        font-size: 1.5rem;
+        text-decoration: none;
+        list-style: none;
+        color: blueviolet;
+        justify-content: center;
+        padding: 0.5rem;
+        margin: 1rem;
+        border: 1rem;
+    }
+
+
+    /* ==== MAIN ==== */
+
+    .destacados h1 {
+
+        font-family: $fuente;
+        font-size: 3rem;
+        text-decoration: underline;
+        text-align: center;
+        margin: 4rem;
+
+    }
+
+    .articulos article img {
+
+        border: solid 0.2rem $colorbase;
+        border-radius: 20%;
+        image-orientation: center;
+        margin: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 2%;
+        height: 60%;
+        width: 60%;
+
+        & article div h3 {
+
+            font-family: $fuente;
+            font-size: 2.5rem;
+            color: rgb(41, 39, 39);
+            text-align: center;
+
+        }
+
+        & article div h4 {
+            font-family: $fuente;
+            font-size: 2.5rem;
+            color: rgb(41, 39, 39);
+            text-align: center;
+        }
+
+    }
+
+
+
+
+    .acceso div h3 {
+        font-family: $fuente;
+        font-size: 3rem;
+        text-decoration: underline;
+        text-align: center;
+        margin: 10%;
+
+        & div img {
+            border: solid 0.2rem $colorbase;
+            border-radius: 20%;
+            image-orientation: center;
+            margin: 2%;
+            padding: 2%;
+            height: 60%;
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        & div nav ul li {
+            font-family: $fuente;
+            font-size: 1.5rem;
+            text-align: center;
+            border: solid 0.2em rgba(68, 58, 58, 0.671);
+            list-style: none;
+            width: 25%;
+            margin: 8rem;
+            margin-left: 35%;
+            margin-right: 35%;
+
+        }
+
+    }
+
+
+
+    /* ==== FOOTER ==== */
+
+    .contenedor {
+        background-color: $colorbase;
+        border: black solid 2px;
+        display: grid;
+        grid-template-columns: repeat(3, 10%);
+        grid-template-rows: repeat(2, 10%);
+        padding: 0.5vh;
+        margin: 2.5vh;
+        height: 15vh;
+        width: 15vh;
+    }
+
+
+    .fondo {
+        background-color: $colorbase;
+        color: rgb(41, 39, 39);
+        text-align: center;
+        margin: 1.5rem;
+        width: 30vh;
+        height: 8vh;
+
+    }
+
+    footer div h3 {
+        font-family: $fuente;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0.5rem;
+
+    }
+
+    footer ul li h4 {
+        font-family: $fuente;
+        font-style: italic;
+        font-size: 0.7rem;
+        text-align: center;
+        justify-content: space-between;
+        margin: 0.2rem;
+
+
+    }
+
+
+
+}
+
+
+
+/* ==== INDEX VERSION DESKTOP ==== */
+
+
+@media (min-width:1200px) {
+
+    /* ==== HEADER ==== */
+
+    header .formulario form {
+        margin: 2rem;
+        border: 1rem;
+        width: 95%;
+        justify-content: end;
+
+    }
+
+    header .logo img {
+        margin: 0;
+        margin-right: 25%;
+        margin-left: 25%;
+        border: 1rem;
+        padding: 1rem;
+        display: flex;
+        width: 40%;
+        height: 30%;
+
+
+    }
+
+    header .nav ul li {
+        font-size: 1.7rem;
+        text-decoration: none;
+        list-style: none;
+        color: blueviolet;
+        justify-content: center;
+        padding: 2rem;
+        margin: 1rem;
+        border: 1rem;
+    }
+
+
+
+    /* ==== MAIN ==== */
+
+    .destacados h1 {
+
+        font-family: $fuente;
+        font-size: 3rem;
+        text-decoration: underline;
+        text-align: center;
+        margin: 4rem;
+
+    }
+
+    .articulos article img {
+
+        border: solid 0.2rem $colorbase;
+        border-radius: 20%;
+        image-orientation: center;
+        margin: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 2%;
+        height: 60%;
+        width: 60%;
+
+        & article div h3 {
+
+            font-family: $fuente;
+            font-size: 3rem;
+            color: rgb(41, 39, 39);
+            text-align: center;
+
+        }
+
+        & article div h4 {
+            font-family: $fuente;
+            font-size: 3rem;
+            color: rgb(41, 39, 39);
+            text-align: center;
+        }
+    }
+
+
+    .acceso div h3 {
+        font-family: $fuente;
+        font-size: 3rem;
+        text-decoration: underline;
+        text-align: center;
+        margin: 10%;
+
+        & div img {
+            border: solid 0.2rem $colorbase;
+            border-radius: 20%;
+            image-orientation: center;
+            margin: 2%;
+            padding: 2%;
+            height: 60%;
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        & div nav ul li {
+            font-family: $fuente;
+            font-size: 2rem;
+            text-align: center;
+            border: solid 0.2em rgba(68, 58, 58, 0.671);
+            list-style: none;
+            width: 25%;
+            margin: 8rem;
+            margin-left: 35%;
+            margin-right: 35%;
+
+        }
+    }
+
+
+
+    /* ==== FOOTER ==== */
+
+    .contenedor {
+        background-color: $colorbase;
+        border: black solid 2px;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: repeat(2, 50%);
+        padding: 1vh;
+        margin: 3.5vh;
+        height: 35vh;
+        width: 135vh;
+    }
+
+
+    .fondo {
+        background-color: $colorbase;
+        color: rgb(41, 39, 39);
+        text-align: center;
+        margin: 0.5rem;
+        width: 35vh;
+        height: 4vh;
+
+    }
+
+    footer div h3 {
+        font-family: $fuente;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 1.7rem;
+        text-align: center;
+        padding: 0.5rem;
+
+    }
+
+    footer ul li h4 {
+        font-family: $fuente;
+        font-style: italic;
+        font-size: 1.2rem;
+        text-align: center;
+        justify-content: space-between;
+        margin: 2rem;
+
+
+    }
+
+
+
+}
