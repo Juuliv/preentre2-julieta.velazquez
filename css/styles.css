@@ -2753,10 +2753,10 @@ footer ul li h4 {
 
     .about-us img {
 
-        margin-left: 10%;
+        margin-left: 8%;
         padding: 2%;
         height: 50%;
-        width: 80%
+        width: 60%
     }
 
     .comentarios h2 {
@@ -2790,8 +2790,8 @@ footer ul li h4 {
         grid-template-rows: repeat(2, 50%);
         padding: 1vh;
         margin: 2vh;
-        height: 40vh;
-        width: 120vh;
+        height: 30vh;
+        width: 80vh;
     }
 
 
@@ -2801,7 +2801,7 @@ footer ul li h4 {
         text-align: center;
         margin: 0.2rem;
         width: 14vh;
-        height: 7vh;
+        height: 4vh;
 
     }
 
@@ -2809,14 +2809,14 @@ footer ul li h4 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         text-decoration: underline;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
     }
 
     footer ul li h4 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         text-align: center;
         justify-content: space-between;
 
