@@ -11,6 +11,7 @@
   align-items: center;
   text-align: center;
 }
+
 .tarjetas img {
   max-width: 300px;
   margin: 0 auto;
@@ -24,8 +25,9 @@
     border: 1rem;
     width: 95%;
   }
+
   header .barradenav .container img {
-    margin: 10px;
+    margin: 5px;
     margin-right: 10%;
     margin-left: 10%;
     border: 1rem;
@@ -34,6 +36,7 @@
     width: 60%;
     height: 30%;
   }
+
   header .barradenav ul li {
     font-size: 1rem;
     text-decoration: none;
@@ -45,13 +48,16 @@
     margin: 0.2rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .destacados h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
     text-decoration: underline;
     text-align: center;
+    text-shadow: -20px 30px 10px grey;
   }
+
   .articulos article img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -61,18 +67,21 @@
     height: 40%;
     width: 40%;
   }
+
   .articulos article img article div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .articulos article img article div h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .acceso div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
@@ -80,6 +89,7 @@
     text-align: center;
     margin: 10%;
   }
+
   .acceso div h3 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -89,6 +99,7 @@
     height: 30%;
     width: 65%;
   }
+
   .acceso div h3 div nav ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -98,6 +109,7 @@
     width: 30%;
     margin: 8rem;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -110,6 +122,7 @@
     height: 20vh;
     width: 30vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -118,6 +131,7 @@
     width: 13vh;
     height: 3vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -125,6 +139,7 @@
     font-size: 0.7rem;
     text-align: center;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -133,8 +148,10 @@
     justify-content: space-between;
   }
 }
+
 /* ==== INDEX VERSION TABLET ==== */
 @media (min-width: 768px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
@@ -142,6 +159,7 @@
     width: 95%;
     justify-content: end;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 25%;
@@ -152,6 +170,7 @@
     width: 50%;
     height: 30%;
   }
+
   header .nav ul li {
     font-size: 1.5rem;
     text-decoration: none;
@@ -162,6 +181,7 @@
     margin: 1rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .destacados h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -169,7 +189,9 @@
     text-decoration: underline;
     text-align: center;
     margin: 4rem;
+    text-shadow: -20px 30px 10px grey;
   }
+
   .articulos article img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -181,18 +203,21 @@
     height: 60%;
     width: 60%;
   }
+
   .articulos article img article div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .articulos article img article div h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .acceso div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
@@ -200,6 +225,7 @@
     text-align: center;
     margin: 10%;
   }
+
   .acceso div h3 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -211,6 +237,7 @@
     margin-left: 20%;
     margin-right: 20%;
   }
+
   .acceso div h3 div nav ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
@@ -222,6 +249,7 @@
     margin-left: 35%;
     margin-right: 35%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -234,6 +262,7 @@
     height: 15vh;
     width: 15vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -242,6 +271,7 @@
     width: 30vh;
     height: 8vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -250,6 +280,7 @@
     text-align: center;
     padding: 0.5rem;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -259,8 +290,10 @@
     margin: 0.2rem;
   }
 }
+
 /* ==== INDEX VERSION DESKTOP ==== */
 @media (min-width: 1200px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
@@ -268,6 +301,7 @@
     width: 95%;
     justify-content: end;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 25%;
@@ -278,6 +312,7 @@
     width: 40%;
     height: 30%;
   }
+
   header .nav ul li {
     font-size: 1.7rem;
     text-decoration: none;
@@ -288,6 +323,7 @@
     margin: 1rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .destacados h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -295,7 +331,10 @@
     text-decoration: underline;
     text-align: center;
     margin: 4rem;
+    text-shadow: -20px 30px 10px grey;
+
   }
+
   .articulos article img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -307,18 +346,21 @@
     height: 60%;
     width: 60%;
   }
+
   .articulos article img article div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .articulos article img article div h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .acceso div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
@@ -326,6 +368,7 @@
     text-align: center;
     margin: 10%;
   }
+
   .acceso div h3 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -337,6 +380,7 @@
     margin-left: 20%;
     margin-right: 20%;
   }
+
   .acceso div h3 div nav ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
@@ -348,6 +392,7 @@
     margin-left: 35%;
     margin-right: 35%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -360,6 +405,7 @@
     height: 35vh;
     width: 135vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -368,6 +414,7 @@
     width: 35vh;
     height: 4vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -376,6 +423,7 @@
     text-align: center;
     padding: 0.5rem;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -385,14 +433,17 @@
     margin: 2rem;
   }
 }
+
 /* ==== LIBRERIA VERSION MOBILE ==== */
 @media (min-width: 480px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
     border: 1rem;
     width: 95%;
   }
+
   header .barradenav .container img {
     margin: 10px;
     margin-right: 20%;
@@ -403,6 +454,7 @@
     width: 60%;
     height: 40%;
   }
+
   header .barradenav ul li {
     font-size: 1rem;
     text-decoration: none;
@@ -414,6 +466,7 @@
     margin: 0.2rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .catalogo h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -422,6 +475,7 @@
     text-align: center;
     margin: 4rem;
   }
+
   .catalogo h1 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -435,18 +489,21 @@
     display: flex;
     justify-content: center;
   }
+
   .catalogo h1 div h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 .card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 div a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -455,6 +512,7 @@
     margin-left: 33%;
   }
 }
+
 /* ==== FOOTER ==== */
 .contenedor {
   background-color: rgba(241, 96, 96, 0.671);
@@ -495,6 +553,7 @@ footer ul li h4 {
 
 /* ==== LIBRERIA VERSION TABLET ==== */
 @media (min-width: 768px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
@@ -502,6 +561,7 @@ footer ul li h4 {
     width: 95%;
     justify-content: end;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 25%;
@@ -512,6 +572,7 @@ footer ul li h4 {
     width: 50%;
     height: 30%;
   }
+
   header .nav ul li {
     font-size: 1.5rem;
     text-decoration: none;
@@ -522,6 +583,7 @@ footer ul li h4 {
     margin: 1rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .catalogo h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -530,6 +592,7 @@ footer ul li h4 {
     text-align: center;
     margin: 4rem;
   }
+
   .catalogo h1 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -543,18 +606,21 @@ footer ul li h4 {
     display: flex;
     justify-content: center;
   }
+
   .catalogo h1 div h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 .card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 div a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -562,6 +628,7 @@ footer ul li h4 {
     padding: 0.2rem;
     margin-left: 33%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -574,6 +641,7 @@ footer ul li h4 {
     height: 15vh;
     width: 15vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -582,6 +650,7 @@ footer ul li h4 {
     width: 30vh;
     height: 8vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -590,6 +659,7 @@ footer ul li h4 {
     text-align: center;
     padding: 0.5rem;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -599,8 +669,10 @@ footer ul li h4 {
     margin: 0.2rem;
   }
 }
+
 /* ==== LIBRERIA VERSION DESKTOP ==== */
 @media (min-width: 1200px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
@@ -608,6 +680,7 @@ footer ul li h4 {
     width: 95%;
     justify-content: end;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 25%;
@@ -618,6 +691,7 @@ footer ul li h4 {
     width: 40%;
     height: 30%;
   }
+
   header .nav ul li {
     font-size: 1.7rem;
     text-decoration: none;
@@ -628,6 +702,7 @@ footer ul li h4 {
     margin: 1rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .catalogo h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -636,6 +711,7 @@ footer ul li h4 {
     text-align: center;
     margin: 4rem;
   }
+
   .catalogo h1 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -649,18 +725,21 @@ footer ul li h4 {
     display: flex;
     justify-content: center;
   }
+
   .catalogo h1 div h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 .card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 div a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -668,6 +747,7 @@ footer ul li h4 {
     padding: 0.2rem;
     margin-left: 33%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -680,6 +760,7 @@ footer ul li h4 {
     height: 35vh;
     width: 15vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -688,6 +769,7 @@ footer ul li h4 {
     width: 35vh;
     height: 4vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -696,6 +778,7 @@ footer ul li h4 {
     text-align: center;
     padding: 0.5rem;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -705,14 +788,17 @@ footer ul li h4 {
     margin: 2rem;
   }
 }
+
 /* ==== JUGUETERIA VERSION MOBILE ==== */
 @media (min-width: 480px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
     border: 1rem;
     width: 95%;
   }
+
   header .barradenav .container img {
     margin: 10px;
     margin-right: 20%;
@@ -723,6 +809,7 @@ footer ul li h4 {
     width: 60%;
     height: 40%;
   }
+
   header .barradenav ul li {
     font-size: 1rem;
     text-decoration: none;
@@ -734,6 +821,7 @@ footer ul li h4 {
     margin: 0.2rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .catalogo h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -742,6 +830,7 @@ footer ul li h4 {
     text-align: center;
     margin: 4rem;
   }
+
   .catalogo h1 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -755,18 +844,21 @@ footer ul li h4 {
     display: flex;
     justify-content: center;
   }
+
   .catalogo h1 div h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 .card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 div a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -775,6 +867,7 @@ footer ul li h4 {
     margin-left: 33%;
   }
 }
+
 /* ==== FOOTER ==== */
 .contenedor {
   background-color: rgba(241, 96, 96, 0.671);
@@ -815,6 +908,7 @@ footer ul li h4 {
 
 /* ==== JUGUETERIA VERSION TABLET ==== */
 @media (min-width: 768px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
@@ -822,6 +916,7 @@ footer ul li h4 {
     width: 95%;
     justify-content: end;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 25%;
@@ -832,6 +927,7 @@ footer ul li h4 {
     width: 50%;
     height: 30%;
   }
+
   header .nav ul li {
     font-size: 1.5rem;
     text-decoration: none;
@@ -842,6 +938,7 @@ footer ul li h4 {
     margin: 1rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .catalogo h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -850,6 +947,7 @@ footer ul li h4 {
     text-align: center;
     margin: 4rem;
   }
+
   .catalogo h1 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -863,18 +961,21 @@ footer ul li h4 {
     display: flex;
     justify-content: center;
   }
+
   .catalogo h1 div h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 .card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 div a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -882,6 +983,7 @@ footer ul li h4 {
     padding: 0.2rem;
     margin-left: 33%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -894,6 +996,7 @@ footer ul li h4 {
     height: 15vh;
     width: 15vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -902,6 +1005,7 @@ footer ul li h4 {
     width: 30vh;
     height: 8vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -910,6 +1014,7 @@ footer ul li h4 {
     text-align: center;
     padding: 0.5rem;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -919,8 +1024,10 @@ footer ul li h4 {
     margin: 0.2rem;
   }
 }
+
 /* ==== JUGUETERIA VERSION DESKTOP ==== */
 @media (min-width: 1200px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
@@ -928,6 +1035,7 @@ footer ul li h4 {
     width: 95%;
     justify-content: end;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 25%;
@@ -938,6 +1046,7 @@ footer ul li h4 {
     width: 40%;
     height: 30%;
   }
+
   header .nav ul li {
     font-size: 1.7rem;
     text-decoration: none;
@@ -948,6 +1057,7 @@ footer ul li h4 {
     margin: 1rem;
     border: 1rem;
   }
+
   /* ==== MAIN ==== */
   .catalogo h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -956,6 +1066,7 @@ footer ul li h4 {
     text-align: center;
     margin: 4rem;
   }
+
   .catalogo h1 div img {
     border: solid 0.2rem rgba(241, 96, 96, 0.671);
     border-radius: 20%;
@@ -969,18 +1080,21 @@ footer ul li h4 {
     display: flex;
     justify-content: center;
   }
+
   .catalogo h1 div h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 .card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: rgb(41, 39, 39);
     text-align: center;
   }
+
   .catalogo h1 div a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -988,6 +1102,7 @@ footer ul li h4 {
     padding: 0.2rem;
     margin-left: 33%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -1000,6 +1115,7 @@ footer ul li h4 {
     height: 35vh;
     width: 15vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -1008,6 +1124,7 @@ footer ul li h4 {
     width: 35vh;
     height: 4vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1016,6 +1133,7 @@ footer ul li h4 {
     text-align: center;
     padding: 0.5rem;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1025,14 +1143,17 @@ footer ul li h4 {
     margin: 2rem;
   }
 }
+
 /* ==== NOSOTROS VERSION MOBILE ==== */
 @media (min-width: 480px) {
+
   /* ==== HEADER ==== */
   header .formulario form {
     margin: 2rem;
     border: 1rem;
     width: 95%;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 20%;
@@ -1043,6 +1164,7 @@ footer ul li h4 {
     width: 60%;
     height: 10%;
   }
+
   header .nav ul li {
     font-size: 1rem;
     text-decoration: none;
@@ -1054,6 +1176,7 @@ footer ul li h4 {
     margin: 0.2rem;
     border: 0.2rem;
   }
+
   /* ==== MAIN ==== */
   .about-us h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1062,6 +1185,7 @@ footer ul li h4 {
     font-size: 1.5rem;
     text-align: center;
   }
+
   .about-us h1 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -1069,12 +1193,14 @@ footer ul li h4 {
     text-align: start;
     padding: 1rem;
   }
+
   .about-us h1 img {
     margin-left: 2%;
     padding: 2%;
     height: 50%;
     width: 70%;
   }
+
   .comentarios h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1082,6 +1208,7 @@ footer ul li h4 {
     font-size: 1.2rem;
     text-align: center;
   }
+
   .comentarios h2 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1091,6 +1218,7 @@ footer ul li h4 {
     padding: 0.8rem;
     background-color: rgba(218, 70, 70, 0.719);
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -1103,6 +1231,7 @@ footer ul li h4 {
     height: 20vh;
     width: 35vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -1111,6 +1240,7 @@ footer ul li h4 {
     width: 10vh;
     height: 2vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1118,6 +1248,7 @@ footer ul li h4 {
     font-size: 0.7rem;
     text-align: center;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1126,6 +1257,7 @@ footer ul li h4 {
     justify-content: space-between;
   }
 }
+
 /* ==== NOSOTROS VERSION TABLET ==== */
 @media (min-width: 768px) {
   header .formulario form {
@@ -1133,6 +1265,7 @@ footer ul li h4 {
     border: 1rem;
     width: 95%;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 20%;
@@ -1143,6 +1276,7 @@ footer ul li h4 {
     width: 60%;
     height: 10%;
   }
+
   header .nav ul li {
     font-size: 1.5rem;
     text-decoration: none;
@@ -1154,6 +1288,7 @@ footer ul li h4 {
     margin: 2.5rem;
     border: 0.5rem;
   }
+
   /* ==== MAIN ==== */
   .contacto h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1162,6 +1297,7 @@ footer ul li h4 {
     font-size: 1.7rem;
     text-align: center;
   }
+
   .contacto h1 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1170,6 +1306,7 @@ footer ul li h4 {
     text-align: start;
     padding: 2rem;
   }
+
   .contacto h1 div iframe {
     margin-right: 10%;
     margin-left: 10%;
@@ -1180,6 +1317,7 @@ footer ul li h4 {
     width: 80%;
     height: 50%;
   }
+
   .info ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1187,6 +1325,7 @@ footer ul li h4 {
     text-align: start;
     padding: 0.1rem;
   }
+
   .formcontacto h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1195,22 +1334,26 @@ footer ul li h4 {
     text-align: center;
     padding: 1.5rem;
   }
+
   .formcontacto h3 .completar .casilla label {
     margin: 0.5rem;
     padding: 0.5rem;
     justify-content: center;
   }
+
   .formcontacto h3 .completar .casilla input {
     margin: 0.5rem;
     padding: 0.2rem;
     justify-content: start;
   }
+
   .formcontacto h3 .completar .casilla2 input {
     margin: 0.5rem;
     padding: 0.5rem;
     justify-content: center;
     margin-left: 5%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -1220,6 +1363,7 @@ footer ul li h4 {
     height: 35vh;
     width: 120vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -1228,6 +1372,7 @@ footer ul li h4 {
     width: 20vh;
     height: 3vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1235,6 +1380,7 @@ footer ul li h4 {
     font-size: 1rem;
     text-align: center;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1243,6 +1389,7 @@ footer ul li h4 {
     justify-content: space-between;
   }
 }
+
 /* ==== NOSOTROS VERSION DESKTOP ==== */
 @media (min-width: 1200px) {
   header .formulario form {
@@ -1250,6 +1397,7 @@ footer ul li h4 {
     border: 1rem;
     width: 95%;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 20%;
@@ -1260,6 +1408,7 @@ footer ul li h4 {
     width: 60%;
     height: 10%;
   }
+
   header .nav ul li {
     font-size: 1.5rem;
     text-decoration: none;
@@ -1271,6 +1420,7 @@ footer ul li h4 {
     margin: 2.5rem;
     border: 0.5rem;
   }
+
   /* ==== MAIN ==== */
   .contacto h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1279,6 +1429,7 @@ footer ul li h4 {
     font-size: 1.7rem;
     text-align: center;
   }
+
   .contacto h1 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1287,6 +1438,7 @@ footer ul li h4 {
     text-align: start;
     padding: 2rem;
   }
+
   .contacto h1 div iframe {
     margin-right: 10%;
     margin-left: 10%;
@@ -1297,6 +1449,7 @@ footer ul li h4 {
     width: 80%;
     height: 50%;
   }
+
   .info ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1304,6 +1457,7 @@ footer ul li h4 {
     text-align: start;
     padding: 0.1rem;
   }
+
   .formcontacto h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1312,22 +1466,26 @@ footer ul li h4 {
     text-align: center;
     padding: 1.5rem;
   }
+
   .formcontacto h3 .completar .casilla label {
     margin: 0.5rem;
     padding: 0.5rem;
     justify-content: center;
   }
+
   .formcontacto h3 .completar .casilla input {
     margin: 0.5rem;
     padding: 0.2rem;
     justify-content: start;
   }
+
   .formcontacto h3 .completar .casilla2 input {
     margin: 0.5rem;
     padding: 0.5rem;
     justify-content: center;
     margin-left: 5%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -1337,6 +1495,7 @@ footer ul li h4 {
     height: 35vh;
     width: 120vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -1345,6 +1504,7 @@ footer ul li h4 {
     width: 20vh;
     height: 3vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1352,6 +1512,7 @@ footer ul li h4 {
     font-size: 1rem;
     text-align: center;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1360,6 +1521,7 @@ footer ul li h4 {
     justify-content: space-between;
   }
 }
+
 /* ==== CONTACTANOS VERSION MOBILE ==== */
 /* ==== HEADER ==== */
 @media (min-width: 480px) {
@@ -1368,6 +1530,7 @@ footer ul li h4 {
     border: 1rem;
     width: 95%;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 20%;
@@ -1378,6 +1541,7 @@ footer ul li h4 {
     width: 60%;
     height: 10%;
   }
+
   header .nav ul li {
     font-size: 1rem;
     text-decoration: none;
@@ -1389,6 +1553,7 @@ footer ul li h4 {
     margin: 0.2rem;
     border: 0.2rem;
   }
+
   /* ==== MAIN ==== */
   .contacto h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1397,6 +1562,7 @@ footer ul li h4 {
     font-size: 1.5rem;
     text-align: center;
   }
+
   .contacto h1 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1405,6 +1571,7 @@ footer ul li h4 {
     text-align: start;
     padding: 2rem;
   }
+
   .contacto h1 div iframe {
     margin-right: 10%;
     margin-left: 10%;
@@ -1415,6 +1582,7 @@ footer ul li h4 {
     width: 80%;
     height: 50%;
   }
+
   .info ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1422,6 +1590,7 @@ footer ul li h4 {
     text-align: start;
     padding: 0.1rem;
   }
+
   .formcontacto h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1430,22 +1599,26 @@ footer ul li h4 {
     text-align: center;
     padding: 1rem;
   }
+
   .formcontacto h3 .completar .casilla label {
     margin: 0.2rem;
     padding: 0.5rem;
     justify-content: start;
   }
+
   .formcontacto h3 .completar .casilla input {
     margin: 0.5rem;
     padding: 0.2rem;
     justify-content: start;
   }
+
   .formcontacto h3 .completar .casilla2 input {
     margin: 0.2rem;
     padding: 0.2rem;
     justify-content: center;
     margin-left: 10%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -1458,6 +1631,7 @@ footer ul li h4 {
     height: 20vh;
     width: 53vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -1466,6 +1640,7 @@ footer ul li h4 {
     width: 10vh;
     height: 2vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1473,6 +1648,7 @@ footer ul li h4 {
     font-size: 0.7rem;
     text-align: center;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1481,6 +1657,7 @@ footer ul li h4 {
     justify-content: space-between;
   }
 }
+
 /* ==== CONTACTANOS VERSION TABLET ==== */
 @media (min-width: 768px) {
   header .formulario form {
@@ -1488,6 +1665,7 @@ footer ul li h4 {
     border: 1rem;
     width: 95%;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 20%;
@@ -1498,6 +1676,7 @@ footer ul li h4 {
     width: 60%;
     height: 10%;
   }
+
   header .nav ul li {
     font-size: 1rem;
     text-decoration: none;
@@ -1509,6 +1688,7 @@ footer ul li h4 {
     margin: 0.2rem;
     border: 0.2rem;
   }
+
   /* ==== MAIN ==== */
   .contacto h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1517,6 +1697,7 @@ footer ul li h4 {
     font-size: 1.5rem;
     text-align: center;
   }
+
   .contacto h1 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1525,6 +1706,7 @@ footer ul li h4 {
     text-align: start;
     padding: 2rem;
   }
+
   .contacto h1 div iframe {
     margin-right: 10%;
     margin-left: 10%;
@@ -1535,6 +1717,7 @@ footer ul li h4 {
     width: 80%;
     height: 50%;
   }
+
   .info ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1542,6 +1725,7 @@ footer ul li h4 {
     text-align: start;
     padding: 0.1rem;
   }
+
   .formcontacto h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1550,22 +1734,26 @@ footer ul li h4 {
     text-align: center;
     padding: 1rem;
   }
+
   .formcontacto h3 .completar .casilla label {
     margin: 0.5rem;
     padding: 0.5rem;
     justify-content: start;
   }
+
   .formcontacto h3 .completar .casilla input {
     margin: 0.5rem;
     padding: 0.2rem;
     justify-content: start;
   }
+
   .formcontacto h3 .completar .casilla2 input {
     margin: 0.5rem;
     padding: 0.2rem;
     justify-content: center;
     margin-left: 10%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -1578,6 +1766,7 @@ footer ul li h4 {
     height: 20vh;
     width: 85vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -1586,6 +1775,7 @@ footer ul li h4 {
     width: 15vh;
     height: 3vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1593,6 +1783,7 @@ footer ul li h4 {
     font-size: 0.7rem;
     text-align: center;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1601,6 +1792,7 @@ footer ul li h4 {
     justify-content: space-between;
   }
 }
+
 /* ==== CONTACTANOS VERSION DESKTOP ==== */
 /* ==== HEADER ==== */
 @media (min-width: 1200px) {
@@ -1609,6 +1801,7 @@ footer ul li h4 {
     border: 1rem;
     width: 95%;
   }
+
   header .logo img {
     margin: 0;
     margin-right: 20%;
@@ -1619,6 +1812,7 @@ footer ul li h4 {
     width: 60%;
     height: 10%;
   }
+
   header .nav ul li {
     font-size: 1.5rem;
     text-decoration: none;
@@ -1630,6 +1824,7 @@ footer ul li h4 {
     margin: 2.5rem;
     border: 0.5rem;
   }
+
   /* ==== MAIN ==== */
   .contacto h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1638,6 +1833,7 @@ footer ul li h4 {
     font-size: 1.7rem;
     text-align: center;
   }
+
   .contacto h1 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1646,6 +1842,7 @@ footer ul li h4 {
     text-align: start;
     padding: 2rem;
   }
+
   .contacto h1 div iframe {
     margin-right: 10%;
     margin-left: 10%;
@@ -1656,6 +1853,7 @@ footer ul li h4 {
     width: 80%;
     height: 50%;
   }
+
   .info ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1663,6 +1861,7 @@ footer ul li h4 {
     text-align: start;
     padding: 0.1rem;
   }
+
   .formcontacto h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1671,22 +1870,26 @@ footer ul li h4 {
     text-align: center;
     padding: 1.5rem;
   }
+
   .formcontacto h3 .completar .casilla label {
     margin: 0.5rem;
     padding: 0.5rem;
     justify-content: center;
   }
+
   .formcontacto h3 .completar .casilla input {
     margin: 0.5rem;
     padding: 0.2rem;
     justify-content: start;
   }
+
   .formcontacto h3 .completar .casilla2 input {
     margin: 0.5rem;
     padding: 0.5rem;
     justify-content: center;
     margin-left: 5%;
   }
+
   /* ==== FOOTER ==== */
   .contenedor {
     background-color: rgba(241, 96, 96, 0.671);
@@ -1696,6 +1899,7 @@ footer ul li h4 {
     height: 35vh;
     width: 120vh;
   }
+
   .fondo {
     background-color: rgba(241, 96, 96, 0.671);
     color: rgb(41, 39, 39);
@@ -1704,6 +1908,7 @@ footer ul li h4 {
     width: 20vh;
     height: 3vh;
   }
+
   footer div h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -1711,6 +1916,7 @@ footer ul li h4 {
     font-size: 1rem;
     text-align: center;
   }
+
   footer ul li h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
