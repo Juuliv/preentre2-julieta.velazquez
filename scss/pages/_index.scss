@@ -421,7 +421,9 @@
         text-align: center;
         margin: 10%;
 
-        & div img {
+        .acceso div img {
+
+        
             border: solid 0.2rem $colorbase;
             border-radius: 20%;
             image-orientation: center;
@@ -433,7 +435,7 @@
             margin-right: 20%;
         }
 
-        & div nav ul li {
+        .acceso div nav ul li {
             font-family: $fuente;
             font-size: 2rem;
             text-align: center;
