@@ -58,9 +58,9 @@
             text-align: start;
             padding: 2rem;
         }
-    
+
         & div iframe {
-    
+
             margin-right: 10%;
             margin-left: 10%;
             border: 0.2rem;
@@ -97,13 +97,13 @@
             padding: 0.5rem;
             justify-content: start;
         }
-    
+
         & .completar .casilla input {
             margin: 0.5rem;
             padding: 0.2rem;
             justify-content: start;
         }
-    
+
         & .completar .casilla2 input {
             margin: 0.2rem;
             padding: 0.2rem;
@@ -140,7 +140,7 @@
     }
 
     footer div h3 {
-        font-family:$fuente;
+        font-family: $fuente;
         font-style: italic;
         text-decoration: underline;
         font-size: 0.7rem;
@@ -219,9 +219,9 @@
             text-align: start;
             padding: 2rem;
         }
-    
+
         & div iframe {
-    
+
             margin-right: 10%;
             margin-left: 10%;
             border: 0.2rem;
@@ -258,27 +258,27 @@
             padding: 0.5rem;
             justify-content: start;
         }
-    
+
         & .completar .casilla input {
             margin: 0.5rem;
             padding: 0.2rem;
             justify-content: start;
         }
-    
+
         & .completar .casilla2 input {
             margin: 0.5rem;
             padding: 0.2rem;
             justify-content: center;
             margin-left: 10%;
         }
-    
+
     }
 
 
     /* ==== FOOTER ==== */
 
     .contenedor {
-        background-color:$colorbase;
+        background-color: $colorbase;
         border: black solid 2px;
         display: grid;
         grid-template-columns: repeat(3, 30%);
@@ -377,9 +377,9 @@
             text-align: start;
             padding: 2rem;
         }
-    
+
         & div iframe {
-    
+
             margin-right: 10%;
             margin-left: 10%;
             border: 0.2rem;
@@ -389,13 +389,13 @@
             width: 80%;
             height: 50%;
         }
-    
+
 
     }
 
 
     .info ul li h4 {
-        font-family:$fuente;
+        font-family: $fuente;
         font-style: italic;
         font-size: 0.8rem;
         text-align: start;
@@ -416,20 +416,20 @@
             padding: 0.5rem;
             justify-content: center;
         }
-    
+
         & .completar .casilla input {
             margin: 0.5rem;
             padding: 0.2rem;
             justify-content: start;
         }
-    
+
         & .completar .casilla2 input {
             margin: 0.5rem;
             padding: 0.5rem;
             justify-content: center;
             margin-left: 5%;
         }
-    
+
     }
 
 
@@ -456,7 +456,7 @@
     }
 
     footer div h3 {
-        font-family:$fuente;
+        font-family: $fuente;
         font-style: italic;
         text-decoration: underline;
         font-size: 1rem;

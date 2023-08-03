@@ -54,11 +54,11 @@
             font-size: 0.8rem;
             text-align: start;
             padding: 1rem;
-    
+
         }
-    
+
         & img {
-    
+
             margin-left: 2%;
             padding: 2%;
             height: 50%;
@@ -67,7 +67,7 @@
 
     }
 
-    
+
 
     .comentarios h2 {
 
@@ -94,7 +94,7 @@
     /* ==== FOOTER ==== */
 
     .contenedor {
-        background-color:$colorbase;
+        background-color: $colorbase;
         border: black solid 2px;
         display: grid;
         grid-template-columns: repeat(3, 30%);
@@ -190,9 +190,9 @@
             text-align: start;
             padding: 2rem;
         }
-    
+
         & div iframe {
-    
+
             margin-right: 10%;
             margin-left: 10%;
             border: 0.2rem;
@@ -205,7 +205,7 @@
 
     }
 
-   
+
 
     .info ul li h4 {
         font-family: $fuente;
@@ -229,13 +229,13 @@
             padding: 0.5rem;
             justify-content: center;
         }
-    
+
         & .completar .casilla input {
             margin: 0.5rem;
             padding: 0.2rem;
             justify-content: start;
         }
-    
+
         & .completar .casilla2 input {
             margin: 0.5rem;
             padding: 0.5rem;
@@ -277,7 +277,7 @@
     }
 
     footer ul li h4 {
-        font-family:$fuente;
+        font-family: $fuente;
         font-style: italic;
         font-size: 0.8rem;
         text-align: center;
@@ -346,9 +346,9 @@
             text-align: start;
             padding: 2rem;
         }
-    
+
         & div iframe {
-    
+
             margin-right: 10%;
             margin-left: 10%;
             border: 0.2rem;
@@ -361,7 +361,7 @@
 
     }
 
-   
+
 
     .info ul li h4 {
         font-family: $fuente;
@@ -385,13 +385,13 @@
             padding: 0.5rem;
             justify-content: center;
         }
-    
+
         & .completar .casilla input {
             margin: 0.5rem;
             padding: 0.2rem;
             justify-content: start;
         }
-    
+
         & .completar .casilla2 input {
             margin: 0.5rem;
             padding: 0.5rem;
@@ -405,7 +405,7 @@
     /* ==== FOOTER ==== */
 
     .contenedor {
-        background-color:$colorbase;
+        background-color: $colorbase;
         border: black solid 2px;
         padding: 1.3vh;
         margin: 2.5vh;
@@ -446,4 +446,3 @@
 
 
 }
-
